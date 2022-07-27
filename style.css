@@ -1,0 +1,121 @@
+* {
+    font-family: monospace;
+}
+
+body {
+    width: 600px;
+    background-color: #252525;
+}
+
+.nav-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkInput {
+    outline: none;
+    width: 100%;
+    padding: 1vw;
+    box-sizing: border-box;
+    font-size: 4vw;
+    background-color: #404040;
+    color: white;
+    border: 0.1vw solid #252525;
+    border-radius: 1vw;
+}
+
+
+button {
+    color: #303030;
+    margin-top: 1vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    border: none;
+    font-weight: bold;
+    font-size: 3vw;
+    height: unset;
+    aspect-ratio: 4;
+    width: 20vw;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-save-input {
+    background-color: #9ADCE5;
+}
+
+.button-save-tab {
+    background-color: #9DE59A;
+}
+
+.button-delete {
+    background-color: #E59A9A;
+}
+
+a {
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 3vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-transform: lowercase;
+    height: 100%;
+    margin: auto;
+}
+
+.list {
+    list-style: none;
+    padding: 1vw;
+    background-color: #282828;
+    border-radius: 1.5vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 1vw;
+    max-height: 30vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.list::-webkit-scrollbar {
+    width: 2vw;
+}
+
+.list::-webkit-scrollbar-track {
+    background: #282828;
+    border-radius: 1.2vw;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: #505050;
+    border-radius: 1vw;
+}
+
+li {
+    color: cornflowerblue;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+
+.deleteButton {
+    color: red;
+    width: 4vw;
+    height: 4vw;
+    aspect-ratio: 1;
+    margin: auto;
+    text-align: center;
+    background-color: #404040;
+    font-size: 3vw;
+    padding: 0;
+    border-radius: 50%;
+}

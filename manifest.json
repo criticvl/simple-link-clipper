@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "LinkClipper",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "clip.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "icons": {
+        "128": "clip.png"
+    }
+}
